@@ -15,6 +15,6 @@ NoteTakerWeb is an efficient and secure note-taking web application. It offers a
 6. ![image](https://github.com/Moustafa-Abdelmaksoud/noteTaking/assets/140589817/595b89e9-050f-499c-9c41-c33c88852fe6)
 
 7. **Local Storage**: All notes are saved in the browser's local storage, providing quick access and persistent data storage.
-![image](https://github.com/Moustafa-Abdelmaksoud/noteTaking/assets/140589817/ba509d94-d88a-48ad-84b5-88b170e853f3)
+   ![image](https://github.com/Moustafa-Abdelmaksoud/noteTaking/assets/140589817/ba509d94-d88a-48ad-84b5-88b170e853f3)
 
 
