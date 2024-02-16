@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noteTaking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login">
+        <form name='form-login'>
+    
+            <h1>SIGN IN</h1>
+    
+            <label for="userName">Username</label>
+            <input type="text" id="username" placeholder="flag{admin}" required>
+    
+            <label for="userPw">Password</label>
+            <input type="password" id= "password" placeholder="flag{admin}" required>
+    
+            <input id= "login_btn" type="submit" value="Login" onclick="login()">
+    
+        </form>
+    </div>
+
+
+<!--APPLICATION-->
+
+    <div id="loggedIn" style="display: none">
+     
+    
+      <div class="logout">
+            <p>Welcome<span id="user"></span>!</p>
+            <button onclick="logout()">Logout</button>
+      </div>
+      <div class="container">
+        <h1><img src="images/notes.png">Notes</h1>
+        <button class="btn"><img src="images/edit.png">Create Notes</button>
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="input-box">
+                <img src="images/delete.png">
+            </p> -->
+        </div>
+      </div>
+    </div>
+         
+         
+    
+
+ <script src="./main.js"></script>
+</body>        
+</html>
